@@ -5,7 +5,7 @@ import com.free.paris.beans.factory.BeanDefinition;
 public class GenericBeanDefinition implements BeanDefinition {
     private String id;
     private String beanClassName;
-    private boolean singleton = false;
+    private boolean singleton = true;
     private boolean prototype = false;
     private String scope = SCOPE_DEFAULT;
 

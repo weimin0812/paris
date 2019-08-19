@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.InputStream;
+import java.util.Properties;
 
 public class ResourceTest {
     @Test
@@ -38,5 +39,25 @@ public class ResourceTest {
                 is.close();
             }
         }
+    }
+
+    @Test
+    public void printResourcePath() {
+        Properties ps = System.getProperties();
+        System.out.println(ps.getProperty("sun.boot.class.path"));
+        System.out.println(ps.getProperty("java.ext.dirs"));
+        System.out.println(ps.getProperty("java.class.path"));
+    }
+
+    @Test
+    public void testClassLoader() {
+        try {
+            ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+            Class p = classLoader.loadClass("com.free.paris.service.v1.PetStoreService");
+            System.out.println(0);
+        } catch (Exception e) {
+
+        }
+
     }
 }
