@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanCreationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConfigurableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,10 +54,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,100 +66,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/ClassPathResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.0/cd9dd50ec645ff43aea4072d7067174e6c78a720/dom4j-2.1.0-sources.jar!/org/dom4j/tree/AbstractElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="499" selection-start-line="499" selection-end-line="499" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/Assert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" />
@@ -212,6 +189,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ClassPathXmlApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/FileSystemApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java" />
       </list>
     </option>
   </component>
@@ -256,23 +241,6 @@
               <item name="paris" type="b2602c69:ProjectViewProjectNode" />
               <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paris" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paris" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -298,22 +266,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="paris" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paris" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,17 +276,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566222625430" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566272067099" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.free.paris.context" />
+      <recent name="com.free.paris.beans" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.free.paris.beans.factory.xml" />
       <recent name="com.free.paris.beans.factory.support" />
+      <recent name="com.free.paris.beans.factory.xml" />
       <recent name="com.free.paris.core.io" />
       <recent name="com.free.paris.util" />
     </key>
@@ -351,7 +307,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BeanFactoryTest.testGetBean">
+  <component name="RunManager" selected="JUnit.V1AllTest">
+    <configuration name="ApplicationContextTest.getBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="getBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextTest.testGetBeanFromFileSystemContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="testGetBeanFromFileSystemContext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanFactoryTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.free.paris.test" />
       <extension name="coverage">
@@ -363,22 +351,6 @@
       <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
       <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.BeanFactoryTest" />
       <option name="METHOD_NAME" value="testGetBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceTest.printResourcePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ResourceTest" />
-      <option name="METHOD_NAME" value="printResourcePath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -400,7 +372,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceTest.testClassPathResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="V1AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.free.paris.test" />
       <extension name="coverage">
         <pattern>
@@ -409,36 +381,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ResourceTest" />
-      <option name="METHOD_NAME" value="testClassPathResource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceTest.testFileSystemResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ResourceTest" />
-      <option name="METHOD_NAME" value="testFileSystemResource" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.V1AllTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.V1AllTest" />
+        <item itemvalue="JUnit.ApplicationContextTest.testGetBeanFromFileSystemContext" />
+        <item itemvalue="JUnit.ApplicationContextTest.getBean" />
         <item itemvalue="JUnit.BeanFactoryTest.testGetBean" />
         <item itemvalue="JUnit.ResourceTest.testClassLoader" />
-        <item itemvalue="JUnit.ResourceTest.printResourcePath" />
-        <item itemvalue="JUnit.ResourceTest.testClassPathResource" />
-        <item itemvalue="JUnit.ResourceTest.testFileSystemResource" />
       </list>
     </recent_temporary>
   </component>
@@ -455,32 +410,11 @@
       <workItem from="1566116644981" duration="7896000" />
       <workItem from="1566186843385" duration="417000" />
       <workItem from="1566204616270" duration="1000" />
-      <workItem from="1566219279330" duration="3249000" />
+      <workItem from="1566219279330" duration="5801000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 17h 18m 59s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testFileSystemResource - 2019.08.18 at 17h 33m 12s.xml">
-      <configuration name="ResourceTest.testFileSystemResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 20h 00m 08s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 20h 00m 16s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 20h 02m 20s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 20h 04m 21s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.18 at 20h 04m 59s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ResourceTest_testClassPathResource - 2019.08.19 at 10h 50m 30s.xml">
       <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
     </history-entry>
@@ -490,9 +424,30 @@
     <history-entry file="ResourceTest_testClassLoader - 2019.08.19 at 11h 58m 04s.xml">
       <configuration name="ResourceTest.testClassLoader" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 49m 23s.xml">
+      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 50m 15s.xml">
+      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 52m 18s.xml">
+      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 53m 36s.xml">
+      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationContextTest_getBean - 2019.08.20 at 11h 19m 25s.xml">
+      <configuration name="ApplicationContextTest.getBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationContextTest_testGetBeanFromFileSystemContext - 2019.08.20 at 11h 23m 58s.xml">
+      <configuration name="ApplicationContextTest.testGetBeanFromFileSystemContext" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="V1AllTest - 2019.08.20 at 11h 26m 05s.xml">
+      <configuration name="V1AllTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11563000" />
+    <option name="totallyTimeSpent" value="14115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +462,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43276107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,12 +472,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37228915" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29036143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27228916" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37951806" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -565,30 +520,6 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -606,18 +537,6 @@
           <caret line="722" selection-start-line="722" selection-end-line="722" />
           <folding>
             <element signature="e#27585#27586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -736,26 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
@@ -769,70 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanCreationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/ClassPathResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,29 +680,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="34">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

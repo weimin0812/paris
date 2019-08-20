@@ -1,6 +1,6 @@
-package com.free.paris.beans.factory.xml;
+package com.free.paris.beans.factory;
 
-import com.free.paris.beans.factory.support.BeansException;
+import com.free.paris.beans.BeansException;
 
 public class BeanDefinitionStoreException extends BeansException {
 

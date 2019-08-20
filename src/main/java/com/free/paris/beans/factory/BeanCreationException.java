@@ -1,4 +1,6 @@
-package com.free.paris.beans.factory.support;
+package com.free.paris.beans.factory;
+
+import com.free.paris.beans.BeansException;
 
 public class BeanCreationException extends BeansException {
     private String beanName;

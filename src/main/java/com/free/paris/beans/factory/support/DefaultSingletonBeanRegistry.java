@@ -1,5 +1,6 @@
 package com.free.paris.beans.factory.support;
 
+import com.free.paris.beans.factory.config.SingletonBeanRegistry;
 import com.free.paris.util.Assert;
 
 import java.util.Map;

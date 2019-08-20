@@ -1,4 +1,4 @@
-package com.free.paris.beans.factory.support;
+package com.free.paris.beans;
 
 public class BeansException extends RuntimeException {
     public BeansException(String msg) {

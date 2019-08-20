@@ -1,5 +1,6 @@
 package com.free.paris.beans.factory.xml;
 
+import com.free.paris.beans.factory.BeanDefinitionStoreException;
 import com.free.paris.beans.factory.support.BeanDefinitionRegistry;
 import com.free.paris.beans.factory.support.GenericBeanDefinition;
 import com.free.paris.core.io.Resource;
