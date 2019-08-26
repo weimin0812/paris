@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/CustomBooleanEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/CustomNumberEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/CustomBooleanEditorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/CustomNumberEditorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/V2AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,103 +48,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -164,135 +64,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/service/v1/PetStoreService.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/petstore-v1.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/Resource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/ClassPathResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/Assert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/SingletonBeanRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConfigurableBeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanCreationException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeansException.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/BeanDefinitionStoreException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/AbstractApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ClassPathXmlApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/FileSystemApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="1PwaPourex4YRrkexy2FmpL46PB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paris" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paris" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566272067099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566360509921" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.free.paris.service" />
+      <recent name="com.free.paris.test" />
       <recent name="com.free.paris.context" />
       <recent name="com.free.paris.beans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.free.paris.test" />
+      <recent name="com.free.paris.test.v2" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.free.paris.util" />
+      <recent name="com.free.paris.beans.propertyeditors" />
       <recent name="com.free.paris.beans.factory.support" />
       <recent name="com.free.paris.beans.factory.xml" />
       <recent name="com.free.paris.core.io" />
-      <recent name="com.free.paris.util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,22 +111,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.V1AllTest">
-    <configuration name="ApplicationContextTest.getBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ApplicationContextTest" />
-      <option name="METHOD_NAME" value="getBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.V2AllTest">
+    <configuration name="CustomBooleanEditorTest.testConvertStringToBoolean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.CustomBooleanEditorTest.testConvertStringToBoolean&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomNumberEditorTest.testConvertString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.CustomNumberEditorTest.testConvertString&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="V2AllTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.V2AllTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ApplicationContextTest.testGetBeanFromFileSystemContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.free.paris.test" />
@@ -335,38 +183,6 @@
       <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
       <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ApplicationContextTest" />
       <option name="METHOD_NAME" value="testGetBeanFromFileSystemContext" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanFactoryTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.BeanFactoryTest" />
-      <option name="METHOD_NAME" value="testGetBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceTest.testClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ResourceTest" />
-      <option name="METHOD_NAME" value="testClassLoader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.V2AllTest" />
+        <item itemvalue="Gradle.CustomNumberEditorTest.testConvertString" />
+        <item itemvalue="Gradle.CustomBooleanEditorTest.testConvertStringToBoolean" />
         <item itemvalue="JUnit.V1AllTest" />
         <item itemvalue="JUnit.ApplicationContextTest.testGetBeanFromFileSystemContext" />
-        <item itemvalue="JUnit.ApplicationContextTest.getBean" />
-        <item itemvalue="JUnit.BeanFactoryTest.testGetBean" />
-        <item itemvalue="JUnit.ResourceTest.testClassLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -410,44 +226,13 @@
       <workItem from="1566116644981" duration="7896000" />
       <workItem from="1566186843385" duration="417000" />
       <workItem from="1566204616270" duration="1000" />
-      <workItem from="1566219279330" duration="5801000" />
+      <workItem from="1566219279330" duration="6066000" />
+      <workItem from="1566355268792" duration="598000" />
+      <workItem from="1566359724196" duration="859000" />
+      <workItem from="1566787591802" duration="3765000" />
+      <workItem from="1566791751671" duration="204000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ResourceTest_testClassPathResource - 2019.08.19 at 10h 50m 30s.xml">
-      <configuration name="ResourceTest.testClassPathResource" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_printResourcePath - 2019.08.19 at 10h 51m 34s.xml">
-      <configuration name="ResourceTest.printResourcePath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceTest_testClassLoader - 2019.08.19 at 11h 58m 04s.xml">
-      <configuration name="ResourceTest.testClassLoader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 49m 23s.xml">
-      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 50m 15s.xml">
-      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 52m 18s.xml">
-      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanFactoryTest_testGetBean - 2019.08.19 at 21h 53m 36s.xml">
-      <configuration name="BeanFactoryTest.testGetBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationContextTest_getBean - 2019.08.20 at 11h 19m 25s.xml">
-      <configuration name="ApplicationContextTest.getBean" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationContextTest_testGetBeanFromFileSystemContext - 2019.08.20 at 11h 23m 58s.xml">
-      <configuration name="ApplicationContextTest.testGetBeanFromFileSystemContext" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="V1AllTest - 2019.08.20 at 11h 26m 05s.xml">
-      <configuration name="V1AllTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,46 +243,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43276107" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29036143" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.26385543" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37951806" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="SonarLint" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,356 +265,23 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
           <line>1306</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java</url>
           <line>516</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
           <line>1096</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="722" selection-start-line="722" selection-end-line="722" />
-          <folding>
-            <element signature="e#27585#27586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/petstore-v1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="515" column="19" selection-start-line="515" selection-start-column="19" selection-end-line="515" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="2222" selection-start-line="2222" selection-end-line="2222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/security/SecureClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-          <folding>
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13890">
-          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/service/v1/PetStoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="1437" column="23" selection-start-line="1437" selection-start-column="23" selection-end-line="1437" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="966" column="24" selection-start-line="966" selection-start-column="24" selection-end-line="966" selection-end-column="24" />
-          <folding>
-            <element signature="e#37807#37808#0" expanded="true" />
-            <element signature="e#37839#37840#0" expanded="true" />
-            <element signature="e#48747#48748#0" expanded="true" />
-            <element signature="e#48811#48812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.0/cd9dd50ec645ff43aea4072d7067174e6c78a720/dom4j-2.1.0-sources.jar!/org/dom4j/tree/AbstractElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="499" selection-start-line="499" selection-end-line="499" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ApplicationContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/ResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/core/io/ClassPathResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeansException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/SingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanCreationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinitionStoreException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/V1AllTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/paris$V2AllTest.ic" NAME="V2AllTest Coverage Results" MODIFIED="1566791707085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
