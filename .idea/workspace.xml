@@ -2,23 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/CustomBooleanEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/CustomNumberEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/CustomBooleanEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/CustomNumberEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/V2AllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/SimpleTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/TypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/TypeMismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/RuntimeBeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionValueResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/TypedStringValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v2/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v2/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/service/v2/PetStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/ApplicationContextTestV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionTestV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionValueResolverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/TypeConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/petstore-v2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/V2AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/V2AllTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +46,46 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="paris" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="paris" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="paris" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="paris" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="paris" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="paris" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -74,29 +120,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566360509921" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.free.paris.beans.propertyeditors" />
+      <recent name="com.free.paris.beans.factory.support" />
+      <recent name="com.free.paris.beans.factory.config" />
+      <recent name="com.free.paris.util" />
+      <recent name="com.free.paris.beans.factory.xml" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.free.paris.service" />
       <recent name="com.free.paris.test" />
       <recent name="com.free.paris.context" />
       <recent name="com.free.paris.beans" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.free.paris.test" />
       <recent name="com.free.paris.test.v2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.free.paris.util" />
-      <recent name="com.free.paris.beans.propertyeditors" />
-      <recent name="com.free.paris.beans.factory.support" />
-      <recent name="com.free.paris.beans.factory.xml" />
-      <recent name="com.free.paris.core.io" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/free/paris/beans" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,13 +160,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.V2AllTest">
-    <configuration name="CustomBooleanEditorTest.testConvertStringToBoolean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BeanDefinitionTestV2.testGetBeanDefinition">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v2.Solution" />
+      <module name="paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanDefinitionTestV2.testGetBeanDefinition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.CustomBooleanEditorTest.testConvertStringToBoolean&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.BeanDefinitionTestV2.testGetBeanDefinition&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -132,12 +194,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CustomNumberEditorTest.testConvertString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeanDefinitionValueResolverTest.testResolveRuntimeBeanReference" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.CustomNumberEditorTest.testConvertString&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.BeanDefinitionValueResolverTest.testResolveRuntimeBeanReference&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TypeConverterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v2.TypeConverterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -172,44 +254,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextTest.testGetBeanFromFileSystemContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.ApplicationContextTest" />
-      <option name="METHOD_NAME" value="testGetBeanFromFileSystemContext" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="V1AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.free.paris.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.free.paris.test.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.free.paris.test.v1" />
-      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v1.V1AllTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BeanDefinitionTestV2.testGetBeanDefinition" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Gradle.BeanDefinitionValueResolverTest.testResolveRuntimeBeanReference" />
         <item itemvalue="Gradle.V2AllTest" />
-        <item itemvalue="Gradle.CustomNumberEditorTest.testConvertString" />
-        <item itemvalue="Gradle.CustomBooleanEditorTest.testConvertStringToBoolean" />
-        <item itemvalue="JUnit.V1AllTest" />
-        <item itemvalue="JUnit.ApplicationContextTest.testGetBeanFromFileSystemContext" />
+        <item itemvalue="Gradle.TypeConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,18 +281,15 @@
       <workItem from="1566355268792" duration="598000" />
       <workItem from="1566359724196" duration="859000" />
       <workItem from="1566787591802" duration="3765000" />
-      <workItem from="1566791751671" duration="204000" />
+      <workItem from="1566791751671" duration="628000" />
+      <workItem from="1566874641666" duration="2458000" />
+      <workItem from="1566877463200" duration="1669000" />
+      <workItem from="1566892969197" duration="210000" />
+      <workItem from="1566893406285" duration="4121000" />
+      <workItem from="1566905865465" duration="1578000" />
+      <workItem from="1566961300138" duration="1567000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
