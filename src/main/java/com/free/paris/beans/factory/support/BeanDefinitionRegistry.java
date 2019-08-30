@@ -1,6 +1,6 @@
 package com.free.paris.beans.factory.support;
 
-import com.free.paris.beans.factory.BeanDefinition;
+import com.free.paris.beans.BeanDefinition;
 
 public interface BeanDefinitionRegistry {
     BeanDefinition getBeanDefinition(String beanId);

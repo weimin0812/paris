@@ -1,10 +1,10 @@
 package com.free.paris.test.v2;
 
-import com.free.paris.beans.factory.BeanDefinition;
+import com.free.paris.beans.BeanDefinition;
 import com.free.paris.beans.factory.config.RuntimeBeanReference;
 import com.free.paris.beans.factory.support.DefaultBeanFactory;
 import com.free.paris.beans.factory.xml.XmlBeanDefinitionReader;
-import com.free.paris.beans.propertyeditors.PropertyValue;
+import com.free.paris.beans.PropertyValue;
 import com.free.paris.core.io.ClassPathResource;
 import com.free.paris.util.Constant;
 import org.junit.Assert;

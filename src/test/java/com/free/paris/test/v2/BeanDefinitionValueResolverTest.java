@@ -3,7 +3,7 @@ package com.free.paris.test.v2;
 import com.free.paris.beans.factory.config.RuntimeBeanReference;
 import com.free.paris.beans.factory.support.BeanDefinitionValueResolver;
 import com.free.paris.beans.factory.support.DefaultBeanFactory;
-import com.free.paris.beans.factory.support.TypedStringValue;
+import com.free.paris.beans.factory.config.TypedStringValue;
 import com.free.paris.beans.factory.xml.XmlBeanDefinitionReader;
 import com.free.paris.core.io.ClassPathResource;
 import com.free.paris.dao.v2.AccountDao;
