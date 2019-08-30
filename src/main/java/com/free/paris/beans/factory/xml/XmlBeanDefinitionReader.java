@@ -1,12 +1,13 @@
 package com.free.paris.beans.factory.xml;
 
-import com.free.paris.beans.factory.BeanDefinition;
+import com.free.paris.beans.BeanDefinition;
+import com.free.paris.beans.ConstructorArgument;
+import com.free.paris.beans.PropertyValue;
 import com.free.paris.beans.factory.BeanDefinitionStoreException;
 import com.free.paris.beans.factory.config.RuntimeBeanReference;
+import com.free.paris.beans.factory.config.TypedStringValue;
 import com.free.paris.beans.factory.support.BeanDefinitionRegistry;
 import com.free.paris.beans.factory.support.GenericBeanDefinition;
-import com.free.paris.beans.factory.support.TypedStringValue;
-import com.free.paris.beans.propertyeditors.PropertyValue;
 import com.free.paris.core.io.Resource;
 import com.free.paris.util.StringUtils;
 import org.dom4j.Document;
@@ -32,6 +33,10 @@ public class XmlBeanDefinitionReader {
 
     public static final String NAME_ATTRIBUTE = "name";
 
+    public static final String CONSTRUCTOR_ARG_ELEMENT = "constructor-arg";
+
+    public static final String TYPE_ATTRIBUTE = "type";
+
     private BeanDefinitionRegistry registry;
 
     public XmlBeanDefinitionReader(BeanDefinitionRegistry registry) {
@@ -54,6 +59,7 @@ public class XmlBeanDefinitionReader {
                 if (ele.attributeValue(SCOPE_ATTRIBUTE) != null) {
                     bd.setScope(ele.attributeValue(SCOPE_ATTRIBUTE));
                 }
+                parseConstructorArgElements(ele, bd);
                 parsePropertyElement(ele, bd);
                 registry.registerBeanDefinition(id, bd);
             }
@@ -68,6 +74,29 @@ public class XmlBeanDefinitionReader {
                 }
             }
         }
+    }
+
+    private void parseConstructorArgElements(Element ele, GenericBeanDefinition bd) {
+        Iterator<Element> iterator = ele.elementIterator(CONSTRUCTOR_ARG_ELEMENT);
+        while (iterator.hasNext()) {
+            Element element = iterator.next();
+            parseConstructorArgElement(element, bd);
+        }
+    }
+
+    private void parseConstructorArgElement(Element element, GenericBeanDefinition bd) {
+        String typeAttr = element.attributeValue(TYPE_ATTRIBUTE);
+        String nameAttr = element.attributeValue(NAME_ATTRIBUTE);
+        Object val = parsePropertyValue(element, bd, null);
+        ConstructorArgument.ValueHolder valueHolder = new ConstructorArgument.ValueHolder(val);
+        if (StringUtils.hasLength(typeAttr)) {
+            valueHolder.setType(typeAttr);
+        }
+        if (StringUtils.hasLength(nameAttr)) {
+            valueHolder.setName(nameAttr);
+        }
+
+        bd.getConstructorArgument().addArgumentValue(valueHolder);
     }
 
     private void parsePropertyElement(Element beanElem, BeanDefinition bd) {

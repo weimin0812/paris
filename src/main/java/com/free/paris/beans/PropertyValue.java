@@ -1,4 +1,4 @@
-package com.free.paris.beans.propertyeditors;
+package com.free.paris.beans;
 
 public class PropertyValue {
     private final String name;

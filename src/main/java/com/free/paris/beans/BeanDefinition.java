@@ -1,6 +1,7 @@
-package com.free.paris.beans.factory;
+package com.free.paris.beans;
 
-import com.free.paris.beans.propertyeditors.PropertyValue;
+import com.free.paris.beans.ConstructorArgument;
+import com.free.paris.beans.PropertyValue;
 
 import java.util.List;
 
@@ -21,4 +22,9 @@ public interface BeanDefinition {
 
     List<PropertyValue> getPropertyValues();
 
+    String getId();
+
+    ConstructorArgument getConstructorArgument();
+
+    boolean hasConstructorArgumentValues();
 }

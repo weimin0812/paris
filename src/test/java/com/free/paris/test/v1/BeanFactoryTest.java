@@ -1,6 +1,6 @@
 package com.free.paris.test.v1;
 
-import com.free.paris.beans.factory.BeanDefinition;
+import com.free.paris.beans.BeanDefinition;
 import com.free.paris.beans.factory.support.DefaultBeanFactory;
 import com.free.paris.beans.factory.xml.XmlBeanDefinitionReader;
 import com.free.paris.core.io.ClassPathResource;

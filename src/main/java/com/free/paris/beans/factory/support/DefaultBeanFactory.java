@@ -2,9 +2,9 @@ package com.free.paris.beans.factory.support;
 
 import com.free.paris.beans.SimpleTypeConverter;
 import com.free.paris.beans.factory.BeanCreationException;
-import com.free.paris.beans.factory.BeanDefinition;
+import com.free.paris.beans.BeanDefinition;
 import com.free.paris.beans.factory.config.ConfigurableBeanFactory;
-import com.free.paris.beans.propertyeditors.PropertyValue;
+import com.free.paris.beans.PropertyValue;
 import com.free.paris.util.ClassUtils;
 
 import java.beans.BeanInfo;
@@ -68,13 +68,18 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry
     }
 
     private Object instantiateBean(BeanDefinition bd) {
-        ClassLoader cl = getBeanClassLoader();
-        String beanClassName = bd.getBeanClassName();
-        try {
-            Class<?> clz = cl.loadClass(beanClassName);
-            return clz.newInstance();
-        } catch (Exception e) {
-            throw new BeanCreationException("create bean for " + beanClassName + " failed", e);
+        if (bd.hasConstructorArgumentValues()) {
+            ConstructorResolver resolver = new ConstructorResolver(this);
+            return resolver.autowireConstructor(bd);
+        } else {
+            ClassLoader cl = getBeanClassLoader();
+            String beanClassName = bd.getBeanClassName();
+            try {
+                Class<?> clz = cl.loadClass(beanClassName);
+                return clz.newInstance();
+            } catch (Exception e) {
+                throw new BeanCreationException("create bean for " + beanClassName + " failed", e);
+            }
         }
     }
 

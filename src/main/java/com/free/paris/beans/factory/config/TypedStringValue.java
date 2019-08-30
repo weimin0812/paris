@@ -1,4 +1,4 @@
-package com.free.paris.beans.factory.support;
+package com.free.paris.beans.factory.config;
 
 public class TypedStringValue {
     private String value;

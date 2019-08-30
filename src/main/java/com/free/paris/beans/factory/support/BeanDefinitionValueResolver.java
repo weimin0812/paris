@@ -1,12 +1,14 @@
 package com.free.paris.beans.factory.support;
 
+import com.free.paris.beans.factory.BeanFactory;
 import com.free.paris.beans.factory.config.RuntimeBeanReference;
+import com.free.paris.beans.factory.config.TypedStringValue;
 
 public class BeanDefinitionValueResolver {
-    private final DefaultBeanFactory beanFactory;
+    private final BeanFactory beanFactory;
 
     public BeanDefinitionValueResolver(
-            DefaultBeanFactory beanFactory) {
+            BeanFactory beanFactory) {
 
         this.beanFactory = beanFactory;
     }
