@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/ConstructorArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/ConstructorResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/service/v3/PetStoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v3/ApplicationContextTestV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v3/BeanDefinitionTestV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v3/ConstructorResolverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v3/V3AllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/petstore-v3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionValueResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanDefinitionValueResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/TypedStringValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/TypedStringValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/propertyeditors/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/PropertyValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v1/BeanFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionTestV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionTestV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionValueResolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v2/BeanDefinitionValueResolverTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
