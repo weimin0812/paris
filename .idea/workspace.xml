@@ -2,12 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-asm-3.2.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/petstore-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/BeanNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/annotation/AnnotatedBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/annotation/AnnotationBeanNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/annotation/ScannedGenericBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/ClassPathBeanDefinitionScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/annotation/AnnotationAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/support/PackageResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/AnnotationMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/ClassMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/classreading/AnnotationAttributesReadingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/classreading/AnnotationMetadataReadingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/classreading/ClassMetadataReadingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/classreading/MetadataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/type/classreading/SimpleMetadataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/stereotype/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v4/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v4/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/service/v4/PetStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/ApplicationContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/ClassPathBeanDefinitionScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/ClassReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/MetadataReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/PackageResourceLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/V4AllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/core/io/FileSystemResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +105,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -117,11 +149,11 @@
       <recent name="com.free.paris.test.v2" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.free.paris.beans" />
+      <recent name="com.free.paris.context.annotation" />
       <recent name="com.free.paris.beans.factory.support" />
-      <recent name="com.free.paris.beans.propertyeditors" />
-      <recent name="com.free.paris.beans.factory.config" />
-      <recent name="com.free.paris.util" />
+      <recent name="com.free.paris.context.support" />
+      <recent name="com.free.paris.core.io.support" />
+      <recent name="com.free.paris.core.type.classreading" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,13 +168,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AllTests">
-    <configuration name="AllTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ApplicationContextTest.testGetBeanProperty">
+    <configuration name="ApplicationContextTest.testGetBeanProperty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.AllTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.ApplicationContextTest.testGetBeanProperty&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -157,12 +189,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextTestV3.testGetBeanProperty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClassPathBeanDefinitionScannerTest.testParseScannedBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v3.ApplicationContextTestV3.testGetBeanProperty&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.ClassPathBeanDefinitionScannerTest.testParseScannedBean&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,12 +209,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BeanDefinitionTestV3.testConstructorArgument" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClassReaderTest.testGetClassMetaData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v3.BeanDefinitionTestV3.testConstructorArgument&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.ClassReaderTest.testGetClassMetaData&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,12 +229,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConstructorResolverTest.testAutowireConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MetadataReaderTest.testGetMetadata" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v3.ConstructorResolverTest.testAutowireConstructor&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.MetadataReaderTest.testGetMetadata&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -217,12 +249,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="V3AllTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PackageResourceLoaderTest.testGetResources" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v3.V3AllTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.PackageResourceLoaderTest.testGetResources&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -239,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AllTests" />
-        <item itemvalue="Gradle.ApplicationContextTestV3.testGetBeanProperty" />
-        <item itemvalue="Gradle.V3AllTest" />
-        <item itemvalue="Gradle.BeanDefinitionTestV3.testConstructorArgument" />
-        <item itemvalue="Gradle.ConstructorResolverTest.testAutowireConstructor" />
+        <item itemvalue="Gradle.ApplicationContextTest.testGetBeanProperty" />
+        <item itemvalue="Gradle.ClassPathBeanDefinitionScannerTest.testParseScannedBean" />
+        <item itemvalue="Gradle.PackageResourceLoaderTest.testGetResources" />
+        <item itemvalue="Gradle.MetadataReaderTest.testGetMetadata" />
+        <item itemvalue="Gradle.ClassReaderTest.testGetClassMetaData" />
       </list>
     </recent_temporary>
   </component>
@@ -276,6 +308,9 @@
       <workItem from="1567132624778" duration="2643000" />
       <workItem from="1567146543069" duration="575000" />
       <workItem from="1567321817693" duration="69000" />
+      <workItem from="1567424388832" duration="1415000" />
+      <workItem from="1567479862090" duration="9639000" />
+      <workItem from="1567584970516" duration="1829000" />
     </task>
     <servers />
   </component>
