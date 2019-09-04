@@ -3,6 +3,7 @@ package com.free.paris.test;
 import com.free.paris.test.v1.V1AllTest;
 import com.free.paris.test.v2.V2AllTest;
 import com.free.paris.test.v3.V3AllTest;
+import com.free.paris.test.v4.V4AllTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -10,7 +11,8 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         V1AllTest.class,
         V2AllTest.class,
-        V3AllTest.class
+        V3AllTest.class,
+        V4AllTest.class
 })
 public class AllTests {
 
