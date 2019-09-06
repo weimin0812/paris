@@ -1,7 +1,7 @@
 package com.free.paris.beans.factory.support;
 
-import com.free.paris.beans.ConstructorArgument;
 import com.free.paris.beans.BeanDefinition;
+import com.free.paris.beans.ConstructorArgument;
 import com.free.paris.beans.PropertyValue;
 
 import java.util.ArrayList;
@@ -15,6 +15,7 @@ public class GenericBeanDefinition implements BeanDefinition {
     private String scope = SCOPE_DEFAULT;
     private List<PropertyValue> propertyValues = new ArrayList<>();
     private ConstructorArgument constructorArgument = new ConstructorArgument();
+    private Class<?> beanClass;
 
     public GenericBeanDefinition(String id, String beanClassName) {
         this.id = id;
@@ -78,5 +79,30 @@ public class GenericBeanDefinition implements BeanDefinition {
 
     public void setBeanClassName(String beanClassName) {
         this.beanClassName = beanClassName;
+    }
+
+    @Override
+    public Class<?> resolveBeanClass(ClassLoader classLoader) throws ClassNotFoundException {
+        String beanClassName = getBeanClassName();
+        if (beanClassName == null) {
+            return null;
+        }
+        Class<?> resolvedClass = classLoader.loadClass(beanClassName);
+        beanClass = resolvedClass;
+        return resolvedClass;
+    }
+
+    @Override
+    public Class<?> getBeanClass() throws IllegalArgumentException {
+        if (this.beanClass == null) {
+            throw new IllegalStateException(
+                    "Bean class name [" + this.getBeanClassName() + "] has not been resolved into an actual Class");
+        }
+        return this.beanClass;
+    }
+
+    @Override
+    public boolean hasBeanClass() {
+        return beanClass != null;
     }
 }

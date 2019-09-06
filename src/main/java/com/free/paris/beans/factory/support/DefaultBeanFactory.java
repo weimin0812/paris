@@ -1,10 +1,11 @@
 package com.free.paris.beans.factory.support;
 
+import com.free.paris.beans.BeanDefinition;
+import com.free.paris.beans.PropertyValue;
 import com.free.paris.beans.SimpleTypeConverter;
 import com.free.paris.beans.factory.BeanCreationException;
-import com.free.paris.beans.BeanDefinition;
 import com.free.paris.beans.factory.config.ConfigurableBeanFactory;
-import com.free.paris.beans.PropertyValue;
+import com.free.paris.beans.factory.config.DependencyDescriptor;
 import com.free.paris.util.ClassUtils;
 
 import java.beans.BeanInfo;
@@ -111,6 +112,31 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry
 
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public Object resolveDependency(DependencyDescriptor descriptor) {
+        Class<?> typeToMatch = descriptor.getDependencyType();
+        for (BeanDefinition bd : beanDefinitionMap.values()) {
+            resolveBeanClass(bd);
+            Class<?> beanClass = bd.getBeanClass();
+            if (typeToMatch.isAssignableFrom(beanClass)) {
+                return getBean(bd.getId());
+            }
+        }
+        return null;
+    }
+
+    private void resolveBeanClass(BeanDefinition bd) {
+        if (bd.hasBeanClass()) {
+            return;
+        }
+
+        try {
+            bd.resolveBeanClass(getBeanClassLoader());
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("can't load class:" + bd.getBeanClassName());
         }
     }
 }

@@ -11,7 +11,10 @@ import org.junit.runners.Suite;
                 MetadataReader.class,
                 PackageResourceLoaderTest.class,
                 ClassPathBeanDefinitionScannerTest.class,
-                ApplicationContextTest.class
+                ApplicationContextTest.class,
+                DependencyDescriptorTest.class,
+                InjectionMetadataTest.class,
+                AutowiredAnnotationProcessorTest.class
         }
 )
 
