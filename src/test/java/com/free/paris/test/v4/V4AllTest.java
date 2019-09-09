@@ -1,6 +1,5 @@
 package com.free.paris.test.v4;
 
-import com.free.paris.core.type.classreading.MetadataReader;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -8,13 +7,13 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses(
         {
                 ClassReaderTest.class,
-                MetadataReader.class,
+                MetadataReaderTest.class,
                 PackageResourceLoaderTest.class,
                 ClassPathBeanDefinitionScannerTest.class,
                 ApplicationContextTest.class,
                 DependencyDescriptorTest.class,
                 InjectionMetadataTest.class,
-                AutowiredAnnotationProcessorTest.class
+                AutowiredAnnotationProcessorTest.class,
         }
 )
 

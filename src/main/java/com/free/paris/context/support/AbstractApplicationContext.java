@@ -1,5 +1,7 @@
 package com.free.paris.context.support;
 
+import com.free.paris.beans.factory.annotation.AutowiredAnnotationProcessor;
+import com.free.paris.beans.factory.config.ConfigurableBeanFactory;
 import com.free.paris.beans.factory.support.DefaultBeanFactory;
 import com.free.paris.beans.factory.xml.XmlBeanDefinitionReader;
 import com.free.paris.context.ApplicationContext;
@@ -16,6 +18,13 @@ public abstract class AbstractApplicationContext implements ApplicationContext {
         Resource resource = getResourceByPath(configFile);
         reader.loadBeanDefinitions(resource);
         factory.setBeanClassLoader(getBeanClassLoader());
+        registerBeanPostProcessor(factory);
+    }
+
+    private void registerBeanPostProcessor(ConfigurableBeanFactory factory) {
+        AutowiredAnnotationProcessor processor = new AutowiredAnnotationProcessor();
+        processor.setBeanFactory(factory);
+        factory.addBeanPostProcessor(processor);
     }
 
     protected abstract Resource getResourceByPath(String path);
