@@ -12,4 +12,6 @@ public abstract class Constant {
     public static final String basePackages = "com.free.paris.service.v4,com.free.paris.dao.v4";
     public static final String v4DaoBasePackage = "com.free.paris.dao.v4";
     public static final String petstoreV4 = "petstore-v4.xml";
+    public static final String ACCOUNT_DAO = "accountDAO";
+    public static final String ITEM_DAO = "itemDAO";
 }

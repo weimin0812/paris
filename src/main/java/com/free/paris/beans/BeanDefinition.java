@@ -27,4 +27,10 @@ public interface BeanDefinition {
     ConstructorArgument getConstructorArgument();
 
     boolean hasConstructorArgumentValues();
+
+    Class<?> resolveBeanClass(ClassLoader classLoader) throws ClassNotFoundException;
+
+    Class<?> getBeanClass() throws IllegalArgumentException;
+
+    boolean hasBeanClass();
 }

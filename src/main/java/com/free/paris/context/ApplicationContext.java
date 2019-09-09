@@ -1,6 +1,6 @@
 package com.free.paris.context;
 
-import com.free.paris.beans.factory.config.ConfigurableBeanFactory;
+import com.free.paris.beans.factory.BeanFactory;
 
-public interface ApplicationContext extends ConfigurableBeanFactory {
+public interface ApplicationContext extends BeanFactory {
 }
