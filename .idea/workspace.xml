@@ -2,21 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afec8f85-2cac-445e-baaa-a1c9793382b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/annotation/AutowiredAnnotationProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/InstantiationAwareBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/AnnotationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-cglib-3.2.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/MethodMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/Pointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AbstractAspectJAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterReturningAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterThrowingAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJExpressionPointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/config/MethodLocatingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/CglibProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/ReflectiveMethodInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/NoSuchBeanDefinitionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/MessageTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/service/v5/PetStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CGLibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CglibAopProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/MethodLocatingFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/PointCutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/ReflectiveMethodInvocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/V5AllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/petstore-v5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/AutowiredAnnotationProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/AutowiredAnnotationProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/V4AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/v4/V4AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +106,19 @@
       </state>
     </system>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/PointCutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -97,8 +136,130 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/service/v5/v4/PetStoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/MassagetTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/MessageTracker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/tx/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/AspectJExpressionPointCut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJExpressionPointCut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/Pointcut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/MethodMatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJExpressionPointcut.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/PointCutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/MethodLocatingFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/MethodLocatingFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/petstore-v5.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/config/MethodLocatingFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/NoSuchBeanDefinitionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CountConsumer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CGLibTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/Advice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AbstractAspectJAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterThrowingAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterReturningAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/ReflectiveMethodInvocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/ReflectiveMethodInvocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/service/v5/PetStoreService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/ReflectiveMethodInvocationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/V5AllTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/AopConfigSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/CglibProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigSupport.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CglibAopProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Question5.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Question25.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectId" id="1PwaPourex4YRrkexy2FmpL46PB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paris" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paris" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="v5" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -106,33 +267,36 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.free.paris.aop.framework" />
+      <recent name="com.free.paris.aop" />
+      <recent name="com.free.paris.aop.aspectj" />
+      <recent name="com.free.paris.util" />
+      <recent name="com.free.paris.beans.factory.support" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.free.paris.aop" />
       <recent name="com.free.paris.service" />
       <recent name="com.free.paris.test" />
       <recent name="com.free.paris.context" />
       <recent name="com.free.paris.beans" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/free/paris/beans" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.free.paris.aop.framework" />
+      <recent name="com.free.paris.service.v5" />
+      <recent name="com.free.paris.service.v5.v4" />
       <recent name="com.free.paris.beans.factory.config" />
       <recent name="com.free.paris.test.v3" />
-      <recent name="com.free.paris.test" />
-      <recent name="com.free.paris.test.v2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.free.paris.beans.factory.support" />
-      <recent name="com.free.paris.util" />
-      <recent name="com.free.paris.beans.factory.config" />
-      <recent name="com.free.paris.beans.factory.annotation" />
-      <recent name="com.free.paris.context.annotation" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,114 +311,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AllTests">
-    <configuration name="AllTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.AllTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.PointCutTest.testPointCut">
+    <configuration name="CglibAopProxyTest.testGetProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v5" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v5.CglibAopProxyTest" />
+      <option name="METHOD_NAME" value="testGetProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ApplicationContextTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.ApplicationContextTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="PointCutTest.testPointCut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v5" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v5.PointCutTest" />
+      <option name="METHOD_NAME" value="testPointCut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ApplicationContextTest.testGetBeanProperty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.ApplicationContextTest.testGetBeanProperty&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="ReflectiveMethodInvocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v5" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v5.ReflectiveMethodInvocationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="AutowiredAnnotationProcessorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.AutowiredAnnotationProcessorTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="ReflectiveMethodInvocationTest.testAfterThrowing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v5" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v5.ReflectiveMethodInvocationTest" />
+      <option name="METHOD_NAME" value="testAfterThrowing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="InjectionMetadataTest.testInjection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.free.paris.test.v4.InjectionMetadataTest.testInjection&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="V5AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.free.paris.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.free.paris.test.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.free.paris.test.v5" />
+      <option name="MAIN_CLASS_NAME" value="com.free.paris.test.v5.V5AllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AllTests" />
-        <item itemvalue="Gradle.ApplicationContextTest" />
-        <item itemvalue="Gradle.ApplicationContextTest.testGetBeanProperty" />
-        <item itemvalue="Gradle.AutowiredAnnotationProcessorTest" />
-        <item itemvalue="Gradle.InjectionMetadataTest.testInjection" />
+        <item itemvalue="JUnit.PointCutTest.testPointCut" />
+        <item itemvalue="JUnit.CglibAopProxyTest.testGetProxy" />
+        <item itemvalue="JUnit.V5AllTest" />
+        <item itemvalue="JUnit.ReflectiveMethodInvocationTest.testAfterThrowing" />
+        <item itemvalue="JUnit.ReflectiveMethodInvocationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,9 +435,105 @@
       <workItem from="1567651934494" duration="609000" />
       <workItem from="1567738073594" duration="6035000" />
       <workItem from="1567923192389" duration="890000" />
-      <workItem from="1567997683967" duration="4046000" />
+      <workItem from="1567997683967" duration="4300000" />
+      <workItem from="1568029932136" duration="65000" />
+      <workItem from="1568030162619" duration="1379000" />
+      <workItem from="1568032056900" duration="247000" />
+      <workItem from="1568083537568" duration="2815000" />
+      <workItem from="1568107154178" duration="1325000" />
+      <workItem from="1568120520040" duration="4034000" />
+      <workItem from="1568170118515" duration="2061000" />
+      <workItem from="1568183248605" duration="794000" />
+      <workItem from="1568201435228" duration="1638000" />
+      <workItem from="1568257170360" duration="3649000" />
+      <workItem from="1568269525959" duration="1025000" />
+      <workItem from="1568271166193" duration="669000" />
+      <workItem from="1568287534995" duration="773000" />
+      <workItem from="1568288946134" duration="3000" />
+      <workItem from="1568515446914" duration="6931000" />
+      <workItem from="1568602097659" duration="5691000" />
+      <workItem from="1568634864775" duration="26000" />
+      <workItem from="1568634935771" duration="871000" />
+      <workItem from="1568688822981" duration="1064000" />
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 11h 55m 54s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 11h 58m 00s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 12h 01m 48s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 14h 53m 15s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 14h 54m 24s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 14h 56m 11s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 14h 56m 58s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 15h 00m 01s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CglibAopProxyTest_testGetProxy - 2019.09.16 at 15h 00m 26s.xml">
+      <configuration name="CglibAopProxyTest.testGetProxy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PointCutTest_testPointCut - 2019.09.17 at 11h 57m 26s.xml">
+      <configuration name="PointCutTest.testPointCut" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33616000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25421688" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="SonarLint" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26626506" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -306,8 +544,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -319,28 +577,476 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
           <line>1306</line>
+          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java</url>
           <line>516</line>
+          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java</url>
           <line>1096</line>
+          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/config/BeanPostProcessor.java</url>
           <line>8</line>
+          <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/PointCutTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/paris$V2AllTest.ic" NAME="V2AllTest Coverage Results" MODIFIED="1566791707085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1780" column="13" selection-start-line="1780" selection-start-column="13" selection-end-line="1780" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/NoSuchBeanDefinitionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/beans/factory/support/DefaultBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/MethodLocatingFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/FileSystemApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/config/MethodLocatingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/MethodMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJExpressionPointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-cglib-3.2.18.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-cglib-3.2.18.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-cglib-3.2.18.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="147" column="25" lean-forward="true" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CountConsumer.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/Pointcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/Advice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterThrowingAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AbstractAspectJAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/MessageTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/tx/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/org/aopalliance/intercept/MethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/aspectj/AspectJAfterReturningAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/util/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9734">
+          <caret line="113" column="39" lean-forward="true" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CGLibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/ReflectiveMethodInvocationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/petstore-v5.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#42#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/CglibProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/service/v5/PetStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/free/paris/aop/framework/AopConfigSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/CglibAopProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/V5AllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/Question25.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/free/paris/test/v5/PointCutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

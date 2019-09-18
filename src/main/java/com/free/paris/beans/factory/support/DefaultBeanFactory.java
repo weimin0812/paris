@@ -159,4 +159,14 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry
             throw new RuntimeException("can't load class:" + bd.getBeanClassName());
         }
     }
+
+    @Override
+    public Class<?> getType(String beanName) {
+        BeanDefinition beanDefinition = getBeanDefinition(beanName);
+        if (beanDefinition == null) {
+            throw new NoSuchBeanDefinitionException(beanName);
+        }
+        resolveBeanClass(beanDefinition);
+        return beanDefinition.getBeanClass();
+    }
 }
