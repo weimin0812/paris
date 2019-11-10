@@ -9,24 +9,21 @@ import org.junit.Test;
 import java.lang.reflect.Method;
 
 public class PointcutTest {
-
     @Test
     public void testPointcut() throws NoSuchMethodException {
         String expression = "execution(* com.free.paris.service.v5.*.placeOrder(..))";
         AspectJExpressionPointcut pc = new AspectJExpressionPointcut();
         pc.setExpression(expression);
-
         MethodMatcher mm = pc.getMethodMatcher();
-
         Class<?> targetClass = PetStoreService.class;
         Method placeOrderMethod = targetClass.getMethod("placeOrder");
         Assert.assertTrue(mm.matches(placeOrderMethod));
-
         Method getAccountDAOMethod = targetClass.getMethod("getAccountDAO");
         Assert.assertFalse(mm.matches(getAccountDAOMethod));
 
-
+        targetClass = com.free.paris.service.v4.PetStoreService.class;
+        getAccountDAOMethod = targetClass.getMethod("getAccountDAO");
+        Assert.assertFalse(mm.matches(getAccountDAOMethod));
     }
-
 
 }

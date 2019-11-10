@@ -15,18 +15,18 @@ import java.lang.reflect.Method;
 public class MethodLocatingFactoryTest {
     @Test
     public void testGetMethod() throws NoSuchMethodException {
-        DefaultBeanFactory beanFactory = new DefaultBeanFactory();
-        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
+        DefaultBeanFactory factory = new DefaultBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         Resource resource = new ClassPathResource(Constant.petstoreV5);
         reader.loadBeanDefinitions(resource);
 
         MethodLocatingFactory methodLocatingFactory = new MethodLocatingFactory();
-        methodLocatingFactory.setTargetBeanName("tx");
         methodLocatingFactory.setMethodName("start");
-        methodLocatingFactory.setBeanFactory(beanFactory);
+        methodLocatingFactory.setTargetBeanName("tx");
+        methodLocatingFactory.setBeanFactory(factory);
         Method m = methodLocatingFactory.getObject();
-
         Assert.assertTrue(TransactionManager.class.equals(m.getDeclaringClass()));
         Assert.assertTrue(m.equals(TransactionManager.class.getMethod("start")));
+
     }
 }

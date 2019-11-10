@@ -1,13 +1,13 @@
 package com.free.paris.aop.config;
 
 import com.free.paris.beans.factory.BeanFactory;
-import com.free.paris.beans.factory.support.DefaultBeanFactory;
+import com.free.paris.beans.factory.BeanFactoryAware;
 import com.free.paris.util.BeanUtils;
 import com.free.paris.util.StringUtils;
 
 import java.lang.reflect.Method;
 
-public class MethodLocatingFactory {
+public class MethodLocatingFactory implements BeanFactoryAware {
     private String targetBeanName;
 
     private String methodName;
@@ -22,6 +22,7 @@ public class MethodLocatingFactory {
         this.methodName = methodName;
     }
 
+    @Override
     public void setBeanFactory(BeanFactory beanFactory) {
         if (!StringUtils.hasText(this.targetBeanName)) {
             throw new IllegalArgumentException("Property 'targetBeanName' is required");
