@@ -14,4 +14,6 @@ public abstract class Constant {
     public static final String petstoreV4 = "petstore-v4.xml";
     public static final String ACCOUNT_DAO = "accountDAO";
     public static final String ITEM_DAO = "itemDAO";
+    public static final String petstoreV5 = "petstore-v5.xml";
+    public static final String TX = "tx";
 }
