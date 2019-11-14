@@ -185,18 +185,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.free.paris.aop.framework" />
+      <recent name="com.free.paris.beans.factory" />
+      <recent name="com.free.paris.aop.config" />
+      <recent name="com.free.paris.util" />
+      <recent name="com.free.paris.beans.factory.support" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.free.paris.service" />
       <recent name="com.free.paris.test" />
       <recent name="com.free.paris.context" />
       <recent name="com.free.paris.beans" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/free/paris/beans" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.free.paris.beans.factory.config" />
@@ -204,12 +204,12 @@
       <recent name="com.free.paris.test" />
       <recent name="com.free.paris.test.v2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.free.paris.aop.framework" />
-      <recent name="com.free.paris.beans.factory" />
-      <recent name="com.free.paris.aop.config" />
-      <recent name="com.free.paris.util" />
-      <recent name="com.free.paris.beans.factory.support" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v5" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/free/paris/dao/v3" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/free/paris/beans" />
     </key>
   </component>
   <component name="RunDashboard">
